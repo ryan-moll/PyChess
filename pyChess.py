@@ -6,8 +6,8 @@ def gameLoop():
     BRA = Rook([0,7], 1, board) # Black A file rook
     BNB = Knight([1,7], 1, board) # Black B file knight
     BBC = Bishop([2,7], 1, board) # Black C file bishop
-    BQD = #Queen([3,7], 1, board) # Black D file queen
-    BKE = #King([4,7], 1, board) # Black E file king
+    #BQD = #Queen([3,7], 1, board) # Black D file queen
+    #BKE = #King([4,7], 1, board) # Black E file king
     BBF = Bishop([5,7], 1, board) # Black F file bishop
     BNG = Knight([6,7], 1, board) # Black G file knight
     BRH = Rook([7,7], 1, board) # Black H file rook
@@ -33,8 +33,8 @@ def gameLoop():
     WRA = Rook([0,0], 0, board) # White A file rook
     WNB = Knight([1,0], 0, board) # White B file knight
     WBC = Bishop([2,0], 0, board) # White C file bishop
-    WQD = #Queen([3,0], 0, board) # White D file queen
-    WKE = #King([4,0], 0, board) # White E file king
+    #WQD = #Queen([3,0], 0, board) # White D file queen
+    #WKE = #King([4,0], 0, board) # White E file king
     WBF = Bishop([5,0], 0, board) # White F file bishop
     WNG = Knight([6,0], 0, board) # White G file knight
     WRH = Rook([7,0], 0, board) # White H file rook
